@@ -1,0 +1,156 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+
+body {
+    height: 100%;
+}
+
+
+
+button, img {
+    display: block;
+}
+
+
+
+.main-page-div {
+    width: 100%;
+}
+
+
+
+.btn-div {
+    width: 97%;
+    margin: 15px 20px;
+    direction: rtl;
+    height: 40px;
+}
+
+
+
+/*
+.empty {
+    width: 83%;
+    display: inline-block;
+    margin-left: auto;
+}*/
+
+
+
+.btn-div a{
+    text-decoration: none;
+    color: gray;
+    margin-right: 10px;
+}
+
+
+
+.menu-btn, .menu-btn img{
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 7px;
+}
+
+
+
+.menu-btn{
+    background: none;
+    border: none;
+    vertical-align: middle;
+}
+
+
+
+.sign-in-btn {
+    padding: 5px 10px;
+    border: none;
+    background-color: #4285f4;
+    color: white;
+    display: inline-block;
+    vertical-align: center;
+    padding: 6px 14px;
+    border-radius: 3px;
+}
+
+
+
+.google-logo-img {
+    margin-top: 10%;
+    height: 100px;
+    display: block;
+    justify-self: center;
+}
+
+
+
+input {
+    display: block;
+    width: 430px;
+    padding: 10px 30px;
+    border: 1px solid;
+    border-color: #eeeeee;
+    border-radius: 30px;
+    justify-self: center;
+    margin: 5px 0;
+}
+
+
+
+.middle-btn-div{
+    margin-top: 17px;
+    justify-self: center;
+}
+
+
+
+.middle-btn-div button {
+    color: rgb(118, 117, 117);
+    display: inline-block;
+    width: 105px;
+    height: 30px;
+    background-color: #eeeeee;
+    font-size: 11px;
+    border: none;
+    border-radius: 3px;
+    margin-bottom: 115%;
+    font-weight: bold;
+}
+
+
+
+.bottom-btn-div {
+    background-color: #eeeeee;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 7px 10px 37px;
+    margin-top: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+
+
+.right button, .left button, .right, .left{
+    display: inline-block;
+}
+
+
+
+.right button, .left button {
+    background: none;
+    border: none;
+    margin-right: 15px;
+    font-size: 12px;
+    color: rgb(118, 117, 117);
+    font-weight: bold;
+}
+

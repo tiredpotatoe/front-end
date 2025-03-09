@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>train4</title>
+    <style>
+      table {
+        margin: auto;
+        border-collapse: collapse;
+        width: 320px;
+        height: 250px;
+      }
+
+      td {
+        border: 2px solid #192735;
+        text-align: center;
+        padding: 10px;
+        font-size: 16px;
+        font-weight: bold;
+      }
+
+      .dark {
+        background-color: #5d6d7e;
+        color: #f2f3f4;
+      }
+
+      .light {
+        background-color: #f2f3f4;
+        color: #98999b;
+      }
+
+      .avg {
+        background-color: #98999b;
+        color: #5d6d7e;
+      }
+
+      .bold {
+        font-size: 18px;
+        font-weight: 700;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <tr>
+        <td class="dark">1</td>
+        <td class="dark" colspan="2">2</td>
+        <td class="dark">3</td>
+      </tr>
+      <tr>
+        <td class="dark">4</td>
+        <td class="light">5</td>
+        <td class="light">6</td>
+        <td class="avg">7</td>
+      </tr>
+      <tr>
+        <td rowspan="2" class="dark">8</td>
+        <td class="light">9</td>
+        <td class="light">10</td>
+        <td class="avg">11</td>
+      </tr>
+      <tr>
+        <td class="light">12</td>
+        <td class="light">13</td>
+        <td class="avg">14</td>
+      </tr>
+      <tr>
+        <td class="dark">15</td>
+        <td colspan="3" class="bold light">16</td>
+      </tr>
+    </table>
+  </body>
+</html>

@@ -1,0 +1,167 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+img {
+    height: 10px;
+}
+
+
+#main-div {
+    margin: auto;
+    width: 70%;
+}
+
+
+.left-side-div {
+    display: inline-block;
+    background-color: #fcffee;
+    width: 30%;
+    direction: rtl;
+    vertical-align: top;
+    margin-right: 20px;
+    padding: 15px 0;
+    border: 1px solid #cfd8a1;
+    color: #646d35;
+    box-shadow: 0 0 5px #ced79d;
+}
+
+
+.left-side-div ul a {
+    display: block; 
+    color: #646d35;
+    text-decoration: none;
+}
+
+
+.left-side-div div {
+    border-right: 2px solid #eff3d8;
+    margin-bottom: 10px;
+    line-height: 20px;
+    padding: 0 15px;
+    height: 40px;
+    color: #646d35;
+}
+
+
+.left-side-div ul li{
+    font-size: 10px;
+}
+
+
+.left-side-div h2 {
+    font-size: 15px;
+    font-weight: 500;
+    margin-right: 15px;
+}
+
+
+.left-side-div hr {
+    border: none;
+    width: 100%;
+    height: 1px;
+    transform: scaleY(0.5px);
+    background-color: #eff3d8;
+    margin: 15px 0;
+}
+
+
+.left-side-div ul {
+    margin-right: 15px;
+    list-style: none;
+}
+
+
+.right-side-div {
+    padding-top: 5px;
+    display: inline-block;
+    width: 65%;
+    vertical-align: top;
+    direction: rtl;
+}
+
+
+.right-side-div header h1{
+    font-size: 16px;
+    font-weight: 600;
+    color: #342d3c;
+}
+
+
+.right-side-div header hr {
+    border: none;
+    width: 100%;
+    height: 1px;
+    background-color: #d4d1d1;
+    margin: 15px 0 40px 0;
+}
+
+
+.info-comments{
+    display: inline-block;
+}
+
+
+.comment-sec {
+    width: 97%;
+    padding: 14px 15px 12px 0;
+    margin-bottom: 17px;
+    border-radius: 4px;
+    box-shadow: 0 0 5px #d4d1d1;
+}
+
+
+.courses-div div img {
+    height: 50px;
+    vertical-align: top;
+    border-radius: 25px;
+    margin-left: 10px;
+}
+
+
+.info-comments ul li {
+    display:inline-block ;
+}
+
+
+.info-comments ul li::before {
+    content: "•\A•\A•\A•";
+    display: inline-block;
+    color: #828181;
+    font-size: 5px; 
+    height: 23px;
+    width: 2px;
+    vertical-align: middle;
+    margin-left: 5px;
+}
+
+
+.info-comments h2 a{
+    font-size: 13px;
+    color: #342d3c;
+    text-decoration: none;
+}
+
+
+.info-comments h2 {
+    margin-bottom: 12px;
+}
+
+
+.info-comments {
+    font-size: 12px;
+}
+
+
+.info-comments ul li span a{
+    color: #756f7d;
+    text-decoration: none;
+}
+
+
+.info-comments ul li span {
+    margin-left: 20px;
+    color: #756f7d;
+}

@@ -1,0 +1,588 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+body {
+    padding: 15px 50px;
+    background-color: #f3f3f4;
+}
+
+
+button{
+    cursor: pointer;
+}
+
+
+.container-div {
+    background-color: #f3f3f4;
+}
+
+
+.container-div .left-div {
+    display: inline-block;
+    width: 33%;
+    margin-right: 15px;
+    vertical-align: top;
+}
+
+
+.store-info-div {
+    padding: 25px;
+    background-color: #ffffff;
+}
+
+
+.store-title-kinda {
+    font-size: 18px;
+    font-weight: bold;
+    direction: rtl;
+    margin-bottom: 30px;
+}
+
+
+.store-snd-sec {
+    justify-self: right;
+    height: 55px;
+}
+
+
+.store-snd-sec-left {
+    direction: rtl;
+    height: 30px;
+    display: inline-block;
+    line-height: 22px;
+    vertical-align: top;
+    padding: 1px;
+}
+
+
+.store-snd-sec-left h2 {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+
+.store-snd-sec h2:hover {
+    color: #ff5c35;
+    cursor: pointer;
+}
+
+
+.store-snd-sec-left span{
+    color: #787783;
+}
+
+
+.store-snd-sec-right{
+    display: inline-block;
+    width: 55px;
+    margin-left: 5px;
+    border-radius: 30px;
+}
+
+
+.store-snd-sec-right img {
+    width: 55px;
+    height: 55px;
+    border-radius: 30px;
+}
+
+
+.store-snd-sec-right img:hover{
+    cursor: pointer;
+}
+
+
+.store-trd-sec {
+    justify-self: right;
+    margin-right: 25.3%;
+}
+
+
+.store-trd-sec .btn-looking-div {
+    width: 30px;
+    height: 30px;
+    padding: 8px;
+    display: inline-block;
+    border-radius: 30px;
+    background-color: #ebf8f8;
+    margin-left: 5px;
+}
+
+
+.store-trd-sec .btn-looking-div:hover {
+    cursor: pointer;
+}
+
+
+.store-trd-sec .btn-looking-div img {
+    width: 30px;
+    height: 30px;
+}
+
+
+.store-fth-sec {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.more-info-btn {
+    width: 175px;
+    height: 42px;
+    border: 2px solid #e7e7e9;
+    background: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #252438;
+}
+
+
+.more-info-btn:hover {
+    background-color: #fafafb;
+}
+
+
+.chat-btn {
+    width: 175px;
+    height: 42px;
+    margin-left: 15px;
+    border: 2px solid #ff5c35;
+    background: none;
+    border-radius: 5px;
+    color: #ff5c35;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+.chat-btn img {
+    vertical-align: middle;
+}
+
+
+.chat-btn:hover {
+    background-color: #fff5f0;
+}
+
+
+.store-fve-sec {
+    color: #787783;
+    margin-top: 15px;
+    direction: rtl;
+    font-size: 18px;
+}
+
+/************************************************/
+
+.shopping-div {
+    margin-top: 20px;
+    background-color: white;
+    padding: 25px;
+}
+
+
+.price-div span{
+    font-weight: 700;
+    color: #252438;
+}
+
+
+.shopping-div .inner-div {
+    overflow-x: hidden;
+}
+
+
+.shopping-div .inner-div .shop-scroll-part {
+    white-space: nowrap;
+    height: 50  px;
+    overflow-x: scroll;
+    margin: 25px 0 18px 0;
+}
+
+
+.shopping-div .inner-div .shop-scroll-part div {
+    display: inline-block;
+    margin-left: 10px;
+    background-color: #ffefe7;
+    padding: 10px 5px;
+    text-align: center;
+    width: 320px;
+    color: #433d4e;
+    direction: rtl;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+
+.orange-text {
+    color: #ff5c35;
+    font-weight: 800;
+}
+
+
+.shopping-div .inner-div .shop-scroll-part::-webkit-scrollbar {
+    background: transparent;
+}
+
+
+.shopping-div .inner-div .shop-scroll-part:hover{
+    cursor: grab;
+}
+
+
+.shopping-div .inner-div button {
+    width: 100%;
+    height: 45px;
+    border: none;
+    border-radius: 6px;
+    font-size: 18px;
+    color: white;
+    font-weight: 600;
+    background-color: #ff5c35;
+}
+
+
+.shopping-div .inner-div button:hover {
+    background-color: #d94025;
+}
+
+
+/************************************************/
+.container-div .right-div {
+    display: inline-block;
+    width: 65%;
+}
+
+
+.right-div .top-div {
+    padding: 25px;
+    background-color: white;
+}
+
+
+.description-side{
+    display: inline-block;
+    width: 55%;
+    margin-right: 10px;
+    direction: rtl;
+}
+
+
+.description-side-fst-sec {
+    direction: rtl;
+    height: 295px;
+    width: 100%;
+}
+
+
+.description-side-fst-sec-text {
+    display: inline-block;
+    width: 94%;
+    vertical-align: top;
+}
+
+
+.description-side-fst-sec h1 {
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+
+.description-side-fst-sec p {
+    font-size: 14px;
+    color: black;
+    margin-bottom: 20px;
+}
+
+
+.description-side-fst-sec p::before {
+    content: "★";
+    color: gold;
+}
+
+
+.description-side-fst-sec p span{
+    font-weight: 600;
+}
+
+
+.description-side-fst-sec ul {
+    list-style: none;
+}
+
+
+.description-side-fst-sec ul li {
+    color: #685662;
+    margin-bottom: 10px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+
+.description-side-fst-sec-btn {
+    display: inline-block;
+    width: 5%;
+}
+
+
+.description-side-fst-sec-btn button, .description-side-fst-sec-btn img {
+    width: 20px;
+    height: 20px;
+    background: none;
+    border: none;
+}
+
+
+.description-side-fst-sec-btn button {
+    margin-bottom: 23px;
+}
+
+
+.description-side-fst-sec-btn .save-btn {
+    margin-bottom: 10px;
+}
+
+/*-------------------------------------------*/
+
+.description-side-snd-sec {
+    border-top: 1px solid rgb(218, 209, 209);
+    border-bottom: 1px solid rgb(218, 209, 209);
+    padding: 15px 0;
+    font-size: 17px;
+    width: 100%;
+    font-weight: 600;
+}
+
+
+.description-side-snd-sec img {
+    width: 17px;
+    height: auto;
+    vertical-align: middle;
+    margin-left: 10px;
+    margin-right: 15px;
+}
+
+
+.gray {
+    color: #685662;
+    margin-right: 7px;
+    font-size: 16px;
+}
+
+
+
+.description-side-snd-sec::after {
+    content: ">";
+    margin-right: 6%;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+
+/*--------------------------------------*/
+
+.description-side-trd-sec {
+    direction: ltr;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+}
+
+
+.description-side-trd-sec div {
+    display: inline-block;
+    width: 30%;
+    font-size: 13px;
+    text-align: center;
+    height: 40px;
+    line-height: 20px;
+}
+
+
+.description-side-trd-sec .pos {
+    width: 75px;
+    vertical-align: middle;
+    color: #685662;
+}
+
+
+.description-side-trd-sec div img {
+    vertical-align: middle;
+    height: 40px;
+}
+/*--------------------------------------*/
+
+
+.img-side {
+    display: inline-block;
+    width: 43%;
+    height: 400px;
+    vertical-align: top;
+}
+
+
+.main-picture {
+    width: 100%;
+    height: 320px;
+    cursor: zoom-in;
+}
+
+
+.more-pics-div {
+    margin-top: 12px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+
+.more-pics-div img {
+    height: 52px;
+    width: 52px;
+}
+
+
+.more-pics-div img:hover {
+    cursor: pointer;
+}
+
+
+.more-pics-div .extra-pics {
+    position: absolute;
+    font-size: 11px;
+    padding: 0 4px 4px 4px;
+    left: 15px;
+    bottom: 15px;
+    border: none;
+    opacity: 80%;
+}
+
+
+.extra-pics:hover {
+    opacity: 100%;
+}
+
+
+.main-picture-div {
+    position: relative;
+}
+
+
+.left-arrow, .right-arrow {
+    padding: 5px;
+    background-color: white;
+    opacity: 20%;
+    border: none;
+   position: absolute;
+}
+
+
+.left-arrow {
+    left: 0;
+    top: 45%;
+}
+
+
+.right-arrow {
+    right: 0;
+    top: 45%;
+}
+
+
+.right-arrow:hover, .left-arrow:hover {
+    opacity: 100%;
+}
+
+
+/************************************************/
+
+.bottom-div {
+    background-color: white;
+    margin-top: 15px;
+    padding: 25px;
+    direction: rtl;
+    height: 55px;
+    position: relative;
+}
+
+
+.bottom-div .inner-div {
+    overflow: hidden;
+}
+
+
+.bottom-div span {
+    font-size: 17px;
+    font-weight: 600;
+}
+
+
+.bottom-div .design-scroll-part {
+    margin-top: 10px;
+    height: 50px;
+    white-space: nowrap;
+    overflow-x: scroll;
+}
+
+
+.bottom-div .design-scroll-part:hover {
+    cursor: grab;
+}
+
+
+.design-scroll-part button{
+    height: 30px;
+    width: 220px;
+    margin-right: 3px;
+    border: 1px solid rgb(230, 222, 222);
+    color: rgb(53, 52, 52);
+    font-size: 16px;
+    border-radius: 4px;
+    background: none;
+}
+
+
+.design-scroll-part button:hover {
+    background-color: #f3f3f4;
+}
+
+
+.design-scroll-part::-webkit-scrollbar {
+    background: transparent;
+}
+
+
+.left-arrow-2, .right-arrow-2 {
+    position: absolute;
+    bottom: 25px;
+    opacity: 20%;
+    height: 30px;
+}
+
+
+.left-arrow-2 {
+    left: 10px;
+    bottom: 20px;
+}
+
+.right-arrow-2 {
+    right: 10px;
+    bottom: 20px;
+}
+
+
+.left-arrow-2:hover, .right-arrow-2:hover {
+    opacity: 100%;
+    border: #685662;
+}
+
+
