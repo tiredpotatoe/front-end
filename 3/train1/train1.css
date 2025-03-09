@@ -1,0 +1,308 @@
+/*-----------------*/
+button:hover {
+    cursor: pointer;
+}
+
+.yellow-bg {
+    background-color: #fff3db;
+}
+
+.red-text {
+    color: #bd120b;
+}
+
+.white-text {
+    color: white;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.round-border {
+    border-radius: 6px;
+}
+
+.red-border {
+    border: 1px solid #bd120b;
+}
+
+.padding10 {
+    padding: 5px 10px;
+}
+
+.pink-bg {
+    background-color: #faf0ef;
+}
+
+.font-avg {
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.font-small {
+    font-size: 11px;
+}
+
+.gray-bg {
+    background-color: #e9eef2;
+}
+
+.bold-text {
+    font-weight: 600;
+    font-size: 11px;
+}
+
+.orange-bg {
+    background-color: #fbb531;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.padding5 {
+    padding: 3px 5px;
+}
+
+.margin-right {
+    margin-right: 0.6rem;
+}
+
+.padding20 {
+    padding: 9px 15px;
+}
+
+.padding30 {
+    padding: 9px 1.23rem;
+}
+/*-----------------*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.page-container {
+    background-image: url(img/background.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-top: 20px;
+}
+
+.reciept-container {
+    border-radius: 5px;
+    margin: auto;
+    width: 41vw;
+    box-shadow: 0 0 30px rgb(244, 239, 239);
+    background-color: white;
+}
+
+.reciept-body {
+    border-top: 1px solid #d0d0d5;
+    padding: 15px;
+}
+
+/********title***********/
+
+.reciept-title {
+    direction: rtl;
+    padding: 15px 0;
+    justify-self: center;
+}
+
+.reciept-title img {
+    vertical-align:bottom;
+    height: 24px;
+    width: 24px;
+}
+
+.reciept-title h1 {
+    font-size: 18px;
+    margin-right: 8px;
+}
+/*********sec1**********/
+
+.sec1{
+    direction: rtl;
+    display: flex;
+    background-color: #f5ecf1;
+    padding: 1.4rem;
+    justify-content: space-between;
+}
+
+.sec1 button {
+    padding: 0.4rem 1.2rem;
+}
+
+/**********sec2**********/
+
+.sec2 {
+    direction: rtl;
+    margin-top: 15px;
+}
+
+.right-sec2  {
+    width: 28%;
+    vertical-align: top;
+    margin-left: 15px;
+}
+
+.right-sec2 img {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10px;
+}
+
+.left-sec2 {
+    width: 68%;
+}
+
+.left-sec2 ul {
+    list-style: none;
+}
+
+.left-sec2 ul li {
+    margin-bottom: 7px;
+}
+
+hr {
+    border: 1px solid #bd120b;
+    margin: 14px 0 7px 0;
+}
+
+/**********sec3*********/
+
+.sec3 {
+    width: 100%;
+    direction: rtl;
+    margin: 20px 0;
+}
+
+.sec3 .outer {
+    margin-bottom: 13px;
+}
+
+.sec3-margin {
+    margin-left: 10px;
+}
+
+.sec3-small {
+    width: 32%;
+}
+
+.sec3-avg {
+    width: calc(100% - (32% + 75px));
+}
+
+.sec3-full {
+    width: calc(100% - 31px);
+}
+
+.sec3 .inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+/*********sec4*********/
+
+.sec4 {
+    direction: rtl;
+    display: flex;
+    justify-content: center;
+    margin-top: 1.8rem;
+}
+
+.sec4 button {
+    height: 25px;
+    width: 25px;
+    background: none;
+    border: 1px solid #bd120b;
+    border-radius: 20px;
+    display: block;
+    margin: auto;
+}
+
+td {
+    padding: 9px 5px;
+}
+/*******sec5**********/
+
+.sec5 {
+    margin-top: 25px;
+    margin-bottom: 10px;
+    direction: rtl;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.sec5 button {
+    background-color: #5bb85d;
+    padding: 4px 3.6rem;
+    border: none;
+    border-radius: 7px;
+    font-size: 11px;
+}
+
+.sec5 button img {
+    vertical-align: middle;
+    height: 17px;
+    width: 17px;
+}
+
+
+
+/*in tike ba chatgpte lazam nabud dorost konim asan vali khob gozashtam*/
+
+@media print {
+    body {
+        padding: 0; 
+        margin: 0; 
+    }
+
+    .reciept-container {
+        width: 100%; 
+        box-shadow: none; 
+    }
+
+    table, th, td {
+        background-color: inherit !important;
+        color: inherit !important;
+    }
+
+    button {
+        display: none;
+    }
+
+    .orange-bg, .yellow-bg {
+        background-color: #fbb531 !important;
+        -webkit-print-color-adjust: exact;
+        color-adjust: exact;
+    }
+
+    .yellow-bg {
+        background-color: #fff3db !important;
+    }
+
+    .white-text {
+        color: white !important;
+    }
+
+    .red-text {
+        color: #bd120b !important;
+    }
+    .round-border {
+        border-radius: 6px !important;
+    }
+
+    .sec1, .sec5, .sec2, .sec3 {
+        display: none; 
+    }
+
+}

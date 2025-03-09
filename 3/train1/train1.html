@@ -1,0 +1,219 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>train 1</title>
+    <link rel="stylesheet" href="train1.css">
+    <script src="train1.js"></script>
+</head>
+<body>
+    <div class="page-container">
+        <div class="reciept-container">
+            <div class="reciept-title">
+                <img src="img/McDonald-logo.png" alt="McDonald logo">
+                <h1 class="red-text inline-block">فاکتور مشتری</h1>
+            </div>
+            
+            <div class="reciept-body">
+                <div class="sec1 round-border">
+                    <button class="red-text padding10 red-border round-border pink-bg font-avg bold-text">ورود اطلاعات پایه</button>
+                    <button class="red-text padding10 red-border round-border pink-bg font-avg bold-text">اطلاعات محصول</button>
+                    <button class="red-text padding10 red-border round-border pink-bg font-avg bold-text">وارد کردن تاریخ</button>
+                    <button class="red-text padding10 red-border round-border pink-bg font-avg lastbtn bold-text">چاپ کردن</button>
+                </div>
+
+                
+                    <div class="sec2">
+                        <div class="right-sec2 inline-block">
+                            <img src="img/McDonald-logo.ico" alt="McDonald logo">
+                            <div style="display: flex; justify-content: space-between;">
+                                <span class="red-text font-avg">تاریخ صدور:</span>
+                                <div class=" red-text font-small gray-bg round-border inline-block padding5">1400/05/06</div>
+                            </div>
+                        </div>
+
+                        <div class="left-sec2 inline-block">
+                            <ul>
+                                <li>
+                                    <span class="font-avg red-text">خرید از:</span>
+                                    <div class="margin-right font-avg red-text gray-bg bold-text inline-block round-border padding5">مک دونالد</div>
+                                </li>
+                                <li>
+                                    <span class="font-avg red-text">ادرس وبسایت:</span>
+                                    <div class="margin-right font-avg red-text gray-bg bold-text inline-block round-border padding5">www.mcdonald.com</div>
+                                </li>
+                                <li>
+                                    <span class="font-avg red-text">شماره تلفن:</span>
+                                    <div class="margin-right font-avg red-text gray-bg inline-block round-border bold-text padding5">0370524 4622</div>
+                                </li>
+                                <li>
+                                    <span class="font-avg red-text">ایمیل ادرس:</span>
+                                    <div class="margin-right font-avg red-text gray-bg inline-block round-border bold-text padding5">mcdonalduk@gmail.com</div>
+                                </li>
+                                <hr>
+                                <li class="inline-block"  style="margin-top: 7px;">
+                                    <span class="font-avg red-text">شماره فاکتور:</span>
+                                    <div class="margin-right font-avg red-text gray-bg inline-block round-border bold-text padding5">98212365127</div>  
+                                </li>
+                                <li class="inline-block">
+                                    <span class="font-avg red-text">نام مشتری:</span>
+                                    <div class="margin-right font-avg red-text gray-bg inline-block round-border bold-text padding5">محمد قاضیات</div>
+                                </li>
+                                <li>
+                                    <span class="font-avg red-text">موبایل مشتری:</span>
+                                    <div class="margin-right font-avg red-text gray-bg inline-block round-border bold-text padding5">0942215000</div>
+                                </li>
+                            </ul>
+
+                        </div>
+                    </div>
+
+                    <div class="sec3">
+                        <div class="outer sec3-small sec3-margin orange-bg white-text font-avg round-border padding20 space-between inline-block">
+                            <div class="inner">
+                                <span>نام گیرنده:</span>
+                                <span>حامد امینی</span>
+                            </div>
+                        </div>
+                        <div class="outer sec3-avg orange-bg white-text font-avg round-border padding20 space-between inline-block">
+                            <div class="inner">
+                                <span>شماره موبایل گیرنده:</span>
+                            <span>09331520000</span>
+                            </div>
+                        </div>
+
+                        <div class="outer sec3-full orange-bg white-text font-avg round-border padding20 space-between">
+                            <div class="inner">
+                                <span>کد پستی:</span>
+                            <span>87651934</span>
+                            </div>
+                        </div>
+
+                        <div class="outer sec3-small sec3-margin orange-bg white-text font-avg round-border padding20 space-between inline-block">
+                            <div class="inner">
+                                <span>استان:</span>
+                            <span>اصفهان</span>
+                            </div>
+                        </div>
+                        <div class="outer sec3-avg orange-bg white-text font-avg round-border padding20 space-between inline-block">
+                            <div class="inner">
+                                <span>شهرستان:</span>
+                            <span>کاشان</span>
+                            </div>
+                        </div>
+
+                        <div class="outer sec3-full orange-bg white-text font-avg round-border padding20 space-between">
+                            <div class="inner">
+                                <span>آدرس:</span>
+                            <span>بشئسنبدشسنبدسنشدب</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="sec4">
+                        <table id="price-table">
+                            <thead>
+                                <tr>
+                                    <th style="border-top-right-radius: 10px;" class="orange-bg white-text font-avg padding30">
+                                        ردیف
+                                    </th>
+                                    <th class="orange-bg white-text font-avg padding30">
+                                        محصول
+                                    </th>
+                                    <th class="orange-bg white-text font-avg padding30">
+                                        تعداد
+                                    </th>
+                                    <th style="padding: 9px 2rem;" class="orange-bg white-text font-avg padding30">
+                                        قیمت واحد
+                                    </th>
+                                    <th class="orange-bg white-text font-avg padding30">
+                                        قیمت کل
+                                    </th>
+                                    <th style="border-top-left-radius: 10px; padding: 9px 2rem;" class="orange-bg white-text font-avg padding30">
+                                        ویرایش
+                                    </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr id="row1" class="purchasedItem">
+                                    <td id="item1" class="yellow-bg red-text font-avg">
+                                        1
+                                    </td>
+                                    <td class="yellow-bg red-text font-avg">
+                                        دابل برگر
+                                    </td>
+                                    <td id="amount1" class="yellow-bg red-text font-avg"> 
+                                        2
+                                    </td>
+                                    <td class="yellow-bg red-text font-avg">
+                                        <span id="price1">549000</span>
+                                        <span>تومان</span>
+                                    </td>
+                                    <td class="yellow-bg red-text font-avg">
+
+                                    </td>
+                                    <td class="yellow-bg red-text font-avg ">
+                                        <button id="1" type="button" onclick="deleteItem(this)" class="close-btn btn-1 red-text">x</button>
+                                    </td>
+                                </tr>
+                                <tr id="row2">
+                                    <td id="item2" class="yellow-bg red-text font-avg">
+                                        2
+                                    </td>
+                                    <td class="yellow-bg red-text font-avg">
+                                        برگر مک
+                                    </td>
+                                    <td id="amount2" class="yellow-bg red-text font-avg">
+                                        1
+                                    </td>
+                                    <td class="yellow-bg red-text font-avg">
+                                        <span id="price2">89000</span>
+                                        <span>تومان</span>
+                                    </td >
+                                    <td class="yellow-bg red-text font-avg">
+
+                                    </td>
+                                    <td class="yellow-bg red-text font-avg">
+                                        <button id="2" type="button" onclick="deleteItem(this)"  class="close-btn btn-2 red-text">x</button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="5" class="yellow-bg red-text font-avg">
+                                        هزینه ارسال
+                                    </td>
+                                    <td colspan="1" class="yellow-bg red-text font-avg">
+                                        <span  style="float: left; margin-right: 4px;">تومان</span>
+                                        <span  style="float: left;">12000</span>
+                                    </td>
+                                </tr>
+                                <tfoot>
+                                    <tr>
+                                        <th style="border-bottom-right-radius: 10px;padding: 9px 5px;" colspan="4" class="orange-bg white-text font-avg padding30">
+                                            <span style="float: right;">
+                                                قیمت نهایی
+                                            </span>
+                                        </th>
+                                        <th style="border-bottom-left-radius: 10px;padding: 9px 5px;" colspan="2" class="orange-bg white-text font-avg padding30">
+                                            <span  style="float: left; margin-right: 4px;">تومان</span>
+                                            <span  style="float: left;" id="final-price">1199000</span>
+                                        </th>
+                                    </tr>
+                                </tfoot>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div class="sec5">
+                        <button onclick="printpage()">
+                            <span class="white-text">چاپ صورت حساب</span>
+                            <img src="img/pdf.svg" alt="">
+                        </button>
+                    </div>
+                </div>
+
+        </div>
+    </div>
+</body>
+</html>
