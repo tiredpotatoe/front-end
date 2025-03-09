@@ -1,0 +1,79 @@
+body{
+    font-family: arial;
+}
+
+.bootstrap-card-div {
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 753px;
+    height: 218px;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 7px;
+    border-color: #e5e2e2;
+}
+
+.top-tab-div {
+    height: 60px;
+    background-color: #f7f7f7;
+}
+
+.active-button{
+    color: white;
+    background-color: #0b6eff;
+    border: solid 1px #256ed5;
+    height: 39px;
+    width: 79px;
+    margin: 10px;
+    border-radius: 7px;
+    font-size: 15px;
+}
+
+.link{
+    margin: 5px;
+    font-size: 16px;
+    background-color: #f7f7f7 ;
+    border: none;
+    color: blue;
+}
+
+.disable-button {
+    font-size: 16px;
+    color: #8f8681;
+    margin: 16px;
+    border: none;
+    background-color: #f7f7f7;
+}
+
+hr{
+    margin: 0;
+    border: none;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #e5e2e2;
+}
+
+.card-title{
+    font: 600 23px normal;
+    margin-left: 277px;
+    margin-bottom: 0;
+}
+
+.card-inside-text {
+    margin-top: 15px;
+    margin-left: 131px;
+    color: rgb(41, 39, 39);
+}
+
+.go-somewhere-button{
+    color: white;
+    background-color: #0b6eff;
+    border: solid 1px #256ed5;
+    height: 39px;
+    width: 137px;
+    margin: 10px;
+    border-radius: 7px;
+    font-size: 15px;
+    margin-left: 306px;
+    margin-top: 0;
+}

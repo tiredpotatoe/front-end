@@ -1,0 +1,49 @@
+.card-div {
+    width: 290px;
+    height: 365px;
+    margin: 0;
+    border-style: solid;
+    border-color: #d3d3d3 ;
+    border-width: 1px;
+    border-radius: 4px;
+}
+
+.image-cap-div {
+    height: 183px;
+    width: 290px;
+    background-color: #868f96;
+    border-top-left-radius: 4px;  
+    border-top-right-radius: 4px; 
+    
+}
+
+
+.card-info-div {
+    width: 277px;
+    height: 96px;
+    padding-left: 13px;
+}
+
+.card-title {
+    font: 549 18px arial;
+    color: #1a130e;
+    margin-bottom: 7px;
+
+}
+
+.card-description {
+    color: #343131;
+    margin-top: 0;
+    line-height: 24px;
+}
+
+.card-button{
+  color: white;
+  font-size: 16px;
+  background-color: #106cff;
+  width: 140px;
+  height: 40px;
+  border-style: solid;
+  border-color: #236bd9;
+  border-radius: 5px;
+}

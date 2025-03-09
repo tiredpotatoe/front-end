@@ -1,0 +1,49 @@
+
+.card-div {
+    width: 635px;
+    border: solid 1px rgb(217, 213, 213);
+    border-radius: 10px;
+    height: 244px;
+}
+
+.img-div, .text-div {
+    display: inline-block;
+}
+
+.author-picture, .img-div {
+    height: 244px;
+    width: 190px;
+    margin: 0;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.text-div {
+    vertical-align: top;
+    margin: 0;
+    display: inline-block;
+    width: 400px;
+    padding: 20px;
+}
+
+.main-text {
+    font: 550 17px arial;
+    line-height: 30px;
+    color: #332a45;
+    width: 350px;
+    margin: 0;
+    margin-top: 7px;
+}
+
+.author-name {
+    color: #51b4dd;
+    font: bold 17px arial;
+    margin-bottom: 4px;
+}
+
+.author-job {
+    color: #564b45;
+    font: 17px arial;
+    margin: 0;
+}
+

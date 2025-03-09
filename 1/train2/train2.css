@@ -1,0 +1,42 @@
+.card-div{
+    width: 278px;
+    height: 184px;
+    background-color: #0d6efd;
+    border: solid 2px #2762bb ;
+    border-radius: 5px;
+}
+
+hr {
+    padding-left: 0;
+    border: none;
+    border: 1px solid #005adf;
+}
+
+
+.card-header-div {
+    padding-left: 15px;
+    padding-top: 10px;
+}
+
+.card-text-div{
+    padding-left: 15px;
+}
+
+p , header{
+    color: white;
+    font-family: arial;
+}
+
+
+
+.card-title {
+    font: 580 20px arial;
+    margin-bottom: 0;
+    margin-top: 18px;
+}
+
+.card-description {
+    margin-top: 8px;
+    line-height: 25px;
+    width: 250px;
+}

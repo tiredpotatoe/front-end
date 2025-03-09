@@ -1,0 +1,107 @@
+.main-box-div{
+    width: 491px;
+    height: 481px;
+    border: solid 1px #f8f8f8;
+}
+
+
+hr {
+    border-style: solid;
+    border-color: #f8f8f8;
+}
+.top-tab-div {
+    margin-top: 10px;
+}
+
+.new-releases-button {
+    margin-left: 10px;
+    color: white;
+    background-color: #10a4ec;
+    border: solid 1px rgb(35, 147, 208);
+    border-radius: 6px;
+    width: 120px;
+    height: 37px;
+}
+
+.top-rated-button {
+    margin-left: 10px;
+    color: #6e707d;
+    background-color: #fafafa;  
+    width: 95px;
+    height: 37px;
+    border:solid 1px  #fafafa;
+    border-radius: 6px;
+}
+
+.vicents-picks-button {
+    margin-left: 10px;
+    color: #6e707d;
+    background-color: #fafafa;  
+    width: 127px;
+    height: 37px;
+    border:solid 1px  #fafafa;
+    border-radius: 6px;
+}
+
+.movie-div {
+    display: inline-block;
+}
+
+.movie-img-div, .movie-info-div {
+    display: inline-block; 
+/
+}
+
+.movie-img-div {
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.movie-img-div img {
+    width: 63px;  
+    height: auto; 
+}
+
+img {
+
+    border-radius: 6px;
+}
+
+.movie-info-div {
+    max-width: 300px;  
+    margin-left: 20px; 
+}
+
+.movie-name {
+    font: 550 16px arial;
+    margin-top: 0;
+    margin-bottom: 9px;
+}
+
+.movie-div{
+    vertical-align: top;
+    margin-top: 12px;
+}
+
+
+.rated-btn, .year-btn, .genre-btn, .duration-btn {
+    color: #6f889e;
+    font: 14px arial;
+    border: none;
+    background: none;
+    margin: 0;
+}
+
+.rated-btn {
+    border: solid 1px #b5c3d0;
+    border-radius: 4px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+
+.movie-stars {
+    color: #a9b6bf;
+    font: 14px arial;
+    margin-top: 9px;
+}
