@@ -1,0 +1,166 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+button {
+    cursor: pointer;
+}
+body {
+    padding: 1.7rem 4rem;
+    background: linear-gradient(to bottom right, pink, violet)
+}
+.page-container {
+    background-color: white;
+    height: calc(100vh - 7.4rem);
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 2rem;
+}
+.gray {
+    color: #7c8faf;
+}
+
+/*****left******/
+.left {
+    vertical-align: top;
+    direction: rtl;
+    width: 54%;
+    height: calc(100vh - 7.5rem);
+    display: inline-block;
+}
+.text-container {
+    padding-left: 1.8rem;
+    height: calc(100vh - 14.8rem);
+    overflow-y: scroll;
+    margin-bottom: 1rem;
+}
+.text-container::-webkit-scrollbar {
+    background-color: rgb(179, 175, 175);
+    width: 2px;
+}
+.text-container::-webkit-scrollbar-thumb {
+    background-color: #381f70;
+}
+.see-more-btn {
+    display: flex;
+    justify-self: left;
+    padding: 8px 20px;
+    font-size: 18px;
+    color: white;
+    border-radius: 10px;
+    background-color: #7c8faf;
+    border: none;
+} 
+.post-comment {
+    background-color: #f2f2f4;
+    padding: 2px 1rem;
+    border-radius: 1.2rem;
+} 
+.post-comment .emoji-picker {
+    display: inline-block;
+    font-size: 35px;
+    vertical-align: top;
+    font-weight: 600;
+} 
+.post-comment .user-comment{
+    display: inline-block;
+    border: none;
+    height: 25px;
+    font-size: 18px;
+    font-weight: 600;
+    background: none;
+    width: 82%;
+    vertical-align: middle;
+    padding: 10px;
+    word-spacing: -3px;
+    max-width: 82%;
+    resize: none;
+}
+.post-comment .user-comment::-webkit-scrollbar {
+    background-color: transparent;
+}
+.post-comment .user-comment::placeholder {
+    color: #7c8faf;
+}
+.post-comment .user-comment:focus {
+    outline: none;
+}
+.post-comment button {
+    background: none;
+    border: none;
+}
+.post-comment .send {
+    display: inline-block;
+    font-weight: 900;
+}
+/****right*****/
+.right {
+    width: 43%;
+    display: inline-block;
+}
+.author {
+    display: flex;
+    direction: rtl;
+    justify-content: space-between;
+    margin-bottom: 17px;
+}
+.author-pfp img{
+    width: 2.8rem;
+    height: 2.8rem;
+    border-radius: 30px;
+}
+.author-pfp , .author-info {
+    display: inline-block;
+    vertical-align: middle;
+}
+.author .btns button, .author .btns button img{
+    width: 1rem;
+    height: 1.2rem;
+    background: none;
+    border: none;
+}
+.author .btns button {
+    margin-right: 1rem;
+}
+.card-div img {
+    width: 100%;
+    height: calc(100vh - 12rem);
+    border-radius: 25px;
+}
+/*****comments****/
+.comment-div {
+    width: 100%;
+    background-color: #fff;
+    margin-bottom: 20px;
+    display: flex;
+    height: fit-content;
+    justify-content: space-between;
+}
+.comment-pfp {
+    width: fit-content;
+    margin-left: 15px;
+}
+.comment-pfp img {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+}
+.comment-text {
+    vertical-align: top;
+    line-height: 23px;
+}
+.comment-text p {
+    word-break: break-all;
+}
+.pfp-text-container {
+    display: flex;
+}
+.comment-text > span {
+    font-weight: 900;
+}
+.comment-heart {
+    width: 20px;
+    font-size: 30px;
+    float: left;
+}

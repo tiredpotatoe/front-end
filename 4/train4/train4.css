@@ -1,0 +1,116 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    color: black;
+    background-color: black;
+    padding: 16vh 0;
+}
+.main-page {
+    background-image: url(pictures/bg.jpg);
+    padding-bottom: 30px;
+}
+header {
+    margin-bottom: 30px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+header > div {
+    padding: 15px 0;
+    justify-content: space-between;
+    display: flex;
+    width: 58vw;
+}
+header > div > div {
+    display: inline-block;
+    cursor: pointer;
+}
+header .black-text {
+    font-size: 19px;
+    font-weight: 600;
+}
+header .blue-text {
+    font-size: 17px;
+    color: #3673c3;
+    font-weight: 800;
+}
+.main {
+    width: 58vw;
+    display: flex;
+    justify-self: center;
+    justify-content: space-between;
+}
+.col {
+    display: flex;
+    min-height: 25vw;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.col > div {
+    cursor: pointer;
+    width: 16vw;
+    padding: 3px 15px;
+    background-color: white;
+    opacity: 90%;
+    height: 11.5vw;
+    text-align: center;
+}
+.col > div:hover {
+    box-shadow: 0 0 7px #ff9500;
+}
+.rating-stars {
+    display: flex;
+    justify-self: left;
+    letter-spacing: -2px;
+    color: #fcbc64;
+}
+.rating-stars span {
+    color: gray;
+}
+.store-logo-name {
+    font-size: 20px;
+    color: #b8b4b4;
+    vertical-align: top;
+}
+.reserve-btn {
+    background-color: #fcbc64;
+    padding: 4px 20px;
+    font-size: 11px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+.store-name {
+    font-size: 16px;
+    font-weight: 600;
+}
+.rand-text {
+    color: #b8b4b4;
+    font-size: 11px;
+}
+.col > div div{
+    margin-bottom: 10px;
+}
+.col > div button  {
+    margin-bottom: 15px;
+}
+.middle-big {
+    display: flex;
+    min-height: 25vw;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.middle-big > div {
+    width: 16vw;
+    padding: 15px;
+    background-color: white;
+    opacity: 90%;
+    height: calc(25vw - 30px);
+    text-align: center;
+    cursor: pointer;
+}
+.middle-big > div:hover {
+    box-shadow: 0 0 10px #ff9500;
+}

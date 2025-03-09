@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>train6</title>
+    <link rel="stylesheet" href="train7.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main-container">
+        <!--left-->
+        <div class="left">
+            <img src="pictures/main-pic.png" alt="">
+        </div>
+
+        <!--right-->
+        <div class="right">
+            <!--sign up/ sign in-->
+            <div class="right-head">
+                <div style="color: white; border-bottom: 2px solid #61e2e0;">Sign Up</div>
+                <div style="color: rgb(197, 194, 194); border-bottom: 2px solid #788eb0; font-weight: 500;">Sign In</div>
+            </div>
+
+            <div class="inputs">
+                <form action="">
+                    <input type="text" name="userName" id="userName" placeholder="Username">
+                    <p class="error" id="userNameFix"></p>
+                    <input type="email" class="email" id="email" placeholder="E-mail">
+                    <p  class="error" id="emailFix"></p>
+                    <input type="password" name="password" id="password" placeholder="Password">
+                    <p class="error"  id="passwordFix"></p>
+                    <input type="confirmPassword" name="confirmPassword" id="confirmPassword" placeholder="Confirm Password">
+                    <p class="error errorLast"  id="confirmPasswordFix"></p>
+                    <br>
+                    <button id="register" type="button" onclick="isValid()">RegIster</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="train7.js"></script>
+</body>
+</html>
