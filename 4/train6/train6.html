@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>train6</title>
+    <link rel="stylesheet" href="train6.css" />
+  </head>
+  <body>
+    <div class="page-container">
+      <div class="bg">
+        <div class="data">
+          <div class="top" id="result"></div>
+
+          <div class="middle">
+            <div class="fst-sec-mid">
+              <img src="pictures/write.png" alt="" />
+              <span class="sec-title">توضیحات:</span>
+            </div>
+            <div class="and-sec-mid">
+              <textarea
+                id="exp-ta"
+                placeholder="لطفا متن توضیحات خود را بنویسید."
+              ></textarea>
+            </div>
+            <div class="trd-sec-mid">
+              <span
+                >اطلاعاتی مثل نوع مدل مو، سشوار یا ...را در توضیحات وارد
+                کنید.</span
+              >
+            </div>
+          </div>
+          <div class="bottom">
+            <div class="fst-sec-bot">
+              <img
+                style="vertical-align: bottom"
+                src="pictures/notif.png"
+                alt=""
+              />
+              <span class="sec-title">یادآوری:</span>
+            </div>
+            <div class="snd-sec-bot">
+              <div class="btn-container">
+                <button onclick="increaseMinute()" class="p-btn" id="p-btn">
+                  <img src="pictures/plus.png" alt="" />
+                </button>
+                  <span id="min">0</span>
+                <button onclick="decreaseMinute()" class="m-btn" id="m-btn">
+                  <img src="pictures/minus.png" alt="" />
+                </button>
+              </div>
+              <div class="notif-text">
+                <span>دقیقه قبل از نوبتم اطلاع بده!</span>
+              </div>
+            </div>
+            <div class="trd-sec-bot">
+              <button onclick="getInfo()" class="submit" id="submit">
+                ثبت
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="train6.js"></script>
+  </body>
+</html>
