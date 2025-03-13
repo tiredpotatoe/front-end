@@ -1,0 +1,71 @@
+.main {
+    width: 100%;
+    min-width: 992px;
+    max-width: 1440px;
+    direction: rtl;
+    display: flex;
+    justify-self: center;
+}
+.sidebar {
+    position: fixed;
+    top: 3.8rem;
+    direction: rtl;
+    padding: 0;
+    background-color: #fff;
+    margin: 0;
+    padding: 2.6rem 1rem;
+    overflow:auto;
+    height: calc(100vh - 7.6rem);
+    width: 248px;
+    z-index: 50;
+}
+.sidebar a:hover {
+    color: black;
+    transition: 300ms;
+}
+.sidebar::-webkit-scrollbar {
+    background: none;
+}
+.sidebar >aside >div > ul {
+    margin: 0;
+    padding: 0;
+    font-size: 17px;
+}
+.sidebar > aside > div > ul> li {
+    list-style: none;
+    padding: 8px 0;
+}
+.sidebar > aside > div > ul> li > a {
+        text-decoration: none;
+        color: gray;
+}
+.sidebar > aside > div > ul> li > a> img {
+    max-width: 19px;
+    max-height: 19px;
+    margin-left: 5px;
+    vertical-align: top;
+}
+/*toolbox idfk*/
+.tools-box {
+    width: 100%;
+}
+.tools-box button {
+    width: 100%;
+    text-align: right;
+    padding: 16px 0;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    border-bottom: 1px solid rgb(241, 238, 238);
+}
+.tools-box button:first-child {
+    margin-top: 16PX;
+    border-top: 1px solid rgb(241, 238, 238);
+}
+.tools-box button img {
+    width: 13px;
+    height: 10px;
+    margin-left: 7px;
+    vertical-align: middle;
+}
