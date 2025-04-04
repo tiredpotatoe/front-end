@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>project1</title>
+    <link rel="stylesheet" href="project1.css" />
+  </head>
+  <body>
+    <div class="page-container">
+      <div class="design-div">
+        <div class="box-width-half box-height red-box abs"></div>
+        <div
+          style="left: 9%"
+          class="box-width-half box-height-half red-box abs"
+        ></div>
+
+        <div
+          style="right: 60px; top: 30px"
+          class="green-box box-width box-height abs"
+        ></div>
+        <div
+          style="right: -40px; top: 60px"
+          class="yellow-box box-width box-height abs"
+        ></div>
+        <div style="right: 0" class="red-box box-width box-height abs"></div>
+      </div>
+
+      <div class="main-container">
+        <div class="form-container">
+          <form>
+            <input
+              type="text"
+              id="divName"
+              class="full-inp"
+              placeholder="نام باکس را بنویسید"
+            />
+            <input
+              type="text"
+              id="colorCode"
+              class="full-inp"
+              placeholder="کد رنگی مورد نظر را بنویسید"
+            />
+            <div>
+              <input
+                type="text"
+                id="topSpace"
+                class="half-inp"
+                placeholder="مقدا از top"
+              />
+              <input
+                type="text"
+                id="botSpace"
+                class="half-inp"
+                placeholder="مقدار از bottom"
+              />
+            </div>
+            <div>
+              <input
+                type="text"
+                id="leftSpace"
+                class="half-inp"
+                placeholder="مقدار از left"
+              />
+              <input
+                type="text"
+                id="rightSpace"
+                class="half-inp"
+                placeholder="مقدار از right"
+              />
+            </div>
+            <div>
+              <input
+                type="text"
+                id="divWidth"
+                class="half-inp"
+                placeholder="مقدار width"
+              />
+              <input
+                type="text"
+                id="divHeight"
+                class="half-inp"
+                placeholder="مقدار height"
+              />
+            </div>
+            <button onclick="makeBox()" type="button" class="full-inp submit">
+              ایجاد المنت
+            </button>
+          </form>
+        </div>
+
+        <div class="window">
+          <div id="box" class="box"></div>
+        </div>
+      </div>
+    </div>
+    <script src="project1.js"></script>
+  </body>
+</html>
