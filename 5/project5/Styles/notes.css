@@ -1,0 +1,16 @@
+#notes textarea{
+    width: 80%; 
+    height: 85%;
+    margin: 10% auto;
+    resize: none;
+    background: none;
+    border: none;
+    color: #7d4e56;
+}
+#notes textarea:focus {
+    outline: none;
+}
+#notes textarea::-webkit-scrollbar {
+    background: transparent;
+    width: 0;
+}

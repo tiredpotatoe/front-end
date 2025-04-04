@@ -1,0 +1,232 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 3.2vh 10VW;
+    background-color: #e4e4e4;
+}
+
+.page-container {
+    background-color: white;
+    border-radius: 1.2rem;
+    padding: 6vh 6vw 6vh 1vw;
+    display: flex;
+    justify-content: space-between;
+}
+.left-page {
+    background-color: white;
+    flex-grow: 1;
+    max-width: 57vw;
+}
+.return-container {
+    direction: rtl;
+    display: flex;
+    width: 100%;
+    justify-self: right;
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom:1.3rem;
+}
+.articles-contiane {
+    width: 100%;
+}
+article {
+    background-color: #f2f0f5;
+    padding: 2.2vw 2.7vw;
+    border-radius: 1.2rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+.article {
+    background-color: white;
+    width: 25%;
+    margin: 0.7rem;
+    padding: 1.3rem 0.9rem;
+    border-radius: 0.7rem;
+    position: relative;
+}
+.pfp-div img {
+    width: 1.3rem;
+    height: 1.3rem;
+    border-radius: 1rem;
+    margin-left: 0.7rem;
+}
+.owner-info-div {
+    display: flex;
+    direction: rtl;
+    width: 100%;
+    justify-content: right;
+}
+.owner-info-div::after {
+    content: "...";
+    font-weight: 700;
+    font-size: 14px;
+    position: absolute;
+    left: 1rem;
+    top: 0.9rem;
+}
+.owner-div {
+    line-height: 0.7;
+}
+.store-owner {
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+}
+.store-owner-title {
+    font-size: 11px;
+    color: gray;
+}
+.card-img-div {
+    margin-top: 7px;
+    margin-bottom: 5px;
+}
+.card-img-div img {
+    width: 100%;
+    height: 100%;
+    border-radius: 0.7rem;
+}
+.article-text-div {
+    direction: rtl;
+}
+.article-text-div h3 {
+    font-size: 13px;
+    margin-bottom: 7px;
+}
+.article-text-div p {
+    font-size: 11px;
+    color: rgb(23, 23, 23);
+}
+.right-page {
+    padding: 2.4vw 0 2vw 3.2vw;
+    box-sizing: border-box;
+    direction: rtl;
+    width: 37vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.logo-div {
+    margin-bottom: 1.5rem;
+}
+.logo-div img {
+    width: 55%;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+}
+.company-title {
+    color: gray;
+    font-size: 13px;
+    margin-bottom: 9px;
+}
+.follow-btn-div {
+    width: 100%;
+    margin-bottom: 1rem;
+}
+.follow-btn-div button {
+    background:none;
+    font-size: 17px;
+    color: #5f1e7d;
+    font-weight: 700;
+    padding: 3px;
+    width: calc(100% - 6px);
+    border: 2px solid #5f1e7d;
+    border-radius: 9px  ;
+}
+.shop-stats  {
+    width: calc(100% - 12px);
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+.shop-stats div {
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 1.1;
+}
+.followers::after {
+    content: "دنبال کننده";
+    display: block;
+    font-size: 9px;
+    font-weight: 500;
+    color: gray;
+}
+.following::after {
+    content: "دنبال شده";
+    display: block;
+    font-size: 9px;
+    font-weight: 500;
+    color: gray;
+}
+.posts::after {
+    content: "پست ها";
+    display: block;
+    font-size: 9px;
+    font-weight: 500;
+    color: gray;
+}
+.right-desc {
+    font-size: 13px;
+    margin-bottom: 3.1rem;
+}
+footer {
+    width: 100%;
+    align-self: flex-end;
+    position: relative;
+}
+footer nav {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer img {
+    margin-left: 12px;
+    width: 15px;
+    max-height: 15px;
+}
+footer nav > div {
+    color: #2b0a3b;
+    width: calc(100%);
+    background-color: #fff;
+    padding: 0.7rem 1.5rem;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-weight: 700;
+}
+.foot-prod::after {
+    content: "50";
+    position: absolute;
+    left: 0;
+    margin-top: 5px;
+    font-size: 10px;
+    font-weight: 500;
+    color: gray;
+}
+.foot-posts::after {
+    content: "250";
+    position: absolute;
+    left: 0;
+    margin-top: 5px;
+    font-size: 10px;
+    font-weight: 500;
+    color: gray;
+}
+.foot-msgs:after {
+    content: "20";
+    position: absolute;
+    left: 0;
+    margin-top: 5px;
+    padding: 2px 4px;
+    font-size: 10px;
+    font-weight: 500;
+    color: black;
+    background-color: #e4e4e4;
+    border-radius: 20px;
+}

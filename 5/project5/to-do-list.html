@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>to-do list!</title>
+    <link rel="stylesheet" href="Styles/general.css" />
+    <link rel="stylesheet" href="Styles/nintendo.css" />
+    <link rel="stylesheet" href="Styles/paper.css" />
+    <link rel="stylesheet" href="Styles/Elements.css" />
+    <link rel="stylesheet" href="Styles/notes.css">
+    <link rel="stylesheet" href="Styles/watermark.css">
+  </head>
+  <body>
+    <div class="watermarkLMAO">tiredpotatoe</div>
+    <div class="page-container">
+      <div class="left-handle">
+        <div class="left-pic-div" onclick="reset()">reset</div>
+        <div class="circle-btn-div">
+          <div class="circle-aside">
+            <button class="circle"></button>
+          </div>
+          <div class="circle-middle">
+            <button class="circle"></button>
+            <div style="height: 1.5vw; width: 1vw"></div>
+            <button class="circle"></button>
+          </div>
+          <div class="circle-aside">
+            <button class="circle"></button>
+          </div>
+        </div>
+        <div style="right: 10px; bottom: 30px" class="dotted-box-container">
+          <div class="dotted-box-blue" style="overflow: auto;">
+            <ul id="sortedTasks">
+
+            </ul>
+          </div>
+          <div class="box-title">
+            <img
+              style="height: 16px; margin-top: 5px"
+              src="pictures/priorities.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+
+      <div class="screen">
+        <div class="paper" style="position: relative">
+          <header>
+            <button type="button" id="addBtn" onclick="addTask()">+</button>
+            <div class="title">
+              <img class="title-img" src="pictures/to-do-title.png" alt="" />
+            </div>
+            <div
+              style="
+                padding: 5px;
+                display: flex;
+                border-bottom: 2px solid #7d4e56;
+                justify-content: space-between;
+              "
+            >
+              <div class="date" id="pageDate"></div>
+              <div class="time" id="pageTime"></div>
+            </div>
+          </header>
+          <div id="tasks"></div>
+        </div>
+      </div>
+
+      <div class="right-handle">
+        <div style="left: 10px; top: 30px" class="dotted-box-container">
+          <div class="box-title">
+            <img style="height: 16px" src="pictures/notes-title.png" alt="" />
+          </div>
+          <div class="dotted-box-pink" id="notes">
+            <textarea name="" id=""></textarea>
+          </div>
+        </div>
+        <div style="position: relative">
+          <div class="circle-btn-div2">
+            <div class="circle-aside">
+              <button class="circle"></button>
+            </div>
+            <div class="circle-middle">
+              <button class="circle"></button>
+              <div style="height: 1.5vw; width: 1vw"></div>
+              <button class="circle"></button>
+            </div>
+            <div class="circle-aside">
+              <button class="circle"></button>
+            </div>
+          </div>
+          <div>
+            <button class="thumb-btn" onclick="sortPriorities()"></button>
+          </div>
+          <img
+            style="position: absolute; width: 7vw; right: -3vw; top: 6vw"
+            src="pictures/click.png"
+            alt=""
+          />
+        </div>
+      </div>
+    </div>
+    <script src="main.js"></script>
+    <script src="notes.js"></script>
+    <script src="general.js"></script>
+  </body>
+</html>

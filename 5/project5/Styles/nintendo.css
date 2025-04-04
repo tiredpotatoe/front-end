@@ -1,0 +1,126 @@
+.page-container {
+    display: flex;
+    background-color: #8c9fb7;
+    width: 63vw;
+    height: 82vh;
+    margin: 9vh auto;
+}
+.left-handle {
+    background-image: url(../pictures/stars.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 20.5%;
+    height: 100%;
+    background-color: #a4b4d5;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 5px 30px 30px;
+    box-sizing: border-box;
+    justify-content: space-between;
+}
+.left-pic-div {
+    width: 60%;
+    height: 18%;
+    margin: auto;
+    background-image: url(../pictures/cat.png);
+    background-size: 8vw;
+    background-repeat: no-repeat;
+    background-position: 50% 40%;
+    color: #485667;
+    text-align: center;
+}
+.left-pic-div:hover{
+    cursor: pointer;
+}
+.circle-btn-div {
+    display: flex;
+    margin: auto;
+}
+.circle-btn-div2 {
+    display: flex;
+    justify-self: center;
+    margin-bottom: 7vh;
+}
+.circle-aside {
+    align-content: center;
+}
+.dotted-box-container {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-between;
+}
+.dotted-box-blue {
+    height: 90%;
+    border: 3px solid #8b6571;
+    border-radius: 15px;
+    background-color: #c8d1da;
+    background-image: url(../pictures/dots.png);
+    background-size: cover;
+    background-position-y: center;
+}
+.dotted-box-pink {
+    background-color: #d7c3c3;
+    height: 90%;
+    border: 3px solid #8b6571;
+    border-radius: 15px;
+    background-image: url(../pictures/dots.png);
+    background-size: cover;
+    background-position-y: center;
+}
+.screen {
+    width: 59%;
+    margin: 15px 7px 7px 7px;
+    background-color: #c2c6d6;
+    padding: 10px 7px 20px 7px;
+}
+.right-handle {
+    background-image: url(../pictures/stars2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 20.5%;
+    height: 100%;
+    background-color: #d68788;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 30px 60px 5px;
+    box-sizing: border-box;
+    justify-content: space-between;
+}
+.thumb-btn {
+    cursor: pointer;
+    width: 6vw;
+    display: block;
+    margin: auto;
+    height: 6vw;
+    border-radius: 3vw;
+    background-color: #8392a4;
+    border: 5px solid #8b6571;
+    background-image: url(../pictures/paw.png);
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: 40% 1000%;
+    transition: background-position 1s ease-in-out;
+}
+.thumb-btn:hover {
+    background-position: 40% 500%;
+}
+.circle {
+    width: 2vw;
+    height: 2vw;
+    border-radius: 2vw;
+    border: 5px solid #8b6571;
+    background-color: #8392a4;
+    display: block;
+    background-image: url(../pictures/bubble.png);
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: -5px -7px;
+    transition: transform 2s ease-in-out;
+}
+.circle:hover {
+    transform: rotate(360deg);
+    cursor: pointer;
+}

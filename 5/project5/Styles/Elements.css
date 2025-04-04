@@ -1,0 +1,70 @@
+#tasks {
+    height: 90%;
+    overflow-y: auto;
+}
+#tasks::-webkit-scrollbar {
+    width: 0;
+}
+.task {
+    border-bottom: 2px solid #7d4e56;
+    display: flex;
+}
+.txtarea-div {
+    display: flex;
+    flex-grow: 1;
+    border-left: 2px solid #7d4e56;
+    border-right: 2px solid #7d4e56;
+}
+.task-text {
+    flex-grow: 1;
+    resize: none;
+    background: none;
+    border: none;
+    color: #7d4e56;
+}
+.task-text::-webkit-scrollbar {
+    background: transparent;
+}
+.task-text:focus {
+    outline: none;
+    background: none;
+}
+.task > div {
+    padding: 5px;
+}
+.select-date-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    direction: rtl;
+}
+.importance {
+    width: 20px;
+    height: 10px;
+    color: #7d4e56;
+}
+.importance:focus {
+    outline: none;
+}
+.task-creation-date {
+    font-size: 11px;
+    color: #d7c3c3;
+}
+.delete-btn-div, .done-btn-div {
+    align-self: center;
+}
+.delete-btn-div button, .done-btn-div button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+/***priorities***/
+#sortedTasks {
+    padding: 5px;
+    text-align: left;
+    color: #7d4e56;
+    font-size: 12px;
+}
+.dotted-box-blue::-webkit-scrollbar {
+    background: transparent;
+}
