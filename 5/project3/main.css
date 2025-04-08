@@ -1,0 +1,327 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: arial serif;
+}
+.main {
+    min-height: 100px;
+    margin-top: 3.8rem;
+    width: 77%;
+    min-width: 992px;
+    max-width: calc(1440px - 23%);
+    direction: rtl;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+}
+.actt-main {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.rgt-main {
+    flex: 0 0 41.6666666667%;
+    max-width: 41.6666666667%;
+}
+.rgt-main .itm-ttl span {
+    color: rgba(0, 0, 0, .87);
+    font-size: 1.15rem;
+    font-weight: 500;
+}
+.rgt-main .itm-ttl div {
+    color: rgba(0, 0, 0, .56);
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 2;
+}
+.rgt-main .str-mmbr {
+    border: 1px solid rgba(0, 0, 0, .32);
+    display: inline-block;
+    border-radius: 2px;
+    padding: 3px 4px;
+    color: rgba(0, 0, 0, .56);
+    font-size: .84rem;
+    word-spacing: -2px;
+    margin-bottom: .8rem;
+}
+.rgt-main .str-mmbr img {
+    width: 11px;
+    height: 11px;
+    margin-left: 3px;
+}
+.cntct-btns-div {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    margin: 16px 0;
+}
+.cntct-btns-div div:first-child button {
+    font-size: 1rem;
+    font-weight: 700;
+    background-color: #a62625;
+    color: white;
+    height: 2.4rem;
+    padding: 0 1.2rem;
+    border: none;
+    border-radius: 3px;
+}
+.cntct-btns-div div:first-child button:hover {
+    background-color: #be3737;
+    transition: 1000ms;
+    cursor: pointer;
+}
+.cntct-btns-div div:last-child button, .cntct-btns-div div:last-child img{
+    background: none;
+    border: none;
+    height: 17px;
+    margin:0 8px;
+}
+.itm-inf-rw {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(0, 0, 0, .32);
+    line-height: 2;
+    color: rgba(0, 0, 0, 1);
+    padding: 9px 0;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.rw-ttl {
+    color: rgba(0, 0, 0, .70);
+}
+.itm-desc {
+    color: rgba(0, 0, 0, .87);
+}
+.itm-desc-ttl {
+    padding: 1rem 0;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.itm-desc div:last-child {
+    word-break: break-word;
+    line-height: 1.5;
+}
+.wtf-is-this {
+    display: flex;
+    width: 100%;
+    font-size: 1rem;
+    color: rgba(0, 0, 0, .87);
+    position: relative;
+    padding: 5px 0;
+    border-bottom: 1px solid rgba(0, 0, 0, .32);
+    margin: 10px 0 22px 0;
+}
+.wtf-is-this::after {
+    content: '>';
+    position: absolute;
+    left: 0;
+}
+.wtf-is-this-img img{
+    width: 20px;
+    margin-left: 13px;
+}
+.itm-tags {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: -8px 0 0 -8px;
+}
+.itm-tags button {
+    color: rgba(0, 0, 0, .56);
+    background-color: rgba(0, 0, 0, .04);
+    border: none;
+    border-radius: 2px;
+    display: inline-flex;
+    font-size: .875rem;
+    font-weight: 400;
+    height: 2rem;
+    align-items: center;
+    outline: none;
+    padding: 0 12px;
+    transition: background-color .36s ease;
+    margin: 8px 0 0 8px;
+    line-height: 1.15;
+}
+.lft-main {
+    flex: 0 0 50%;
+    max-width: 50%;
+    margin-right: 8.3333333333%;
+}
+.itm-img-div {
+    display: block;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+.itm-img-div img {
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+}
+.nts-txt {
+    width: 100%;
+    margin: 8px 0 32px;
+}
+.nts-txt textarea{
+    background: none;
+    border: 1px solid rgb(118, 118, 118);
+    color: rgba(0, 0, 0, .87);
+    display: block;
+    font-size: 1.23rem;
+    font-weight: 400;
+    line-height: 2;
+    min-height: 7.5rem;
+    outline: none;
+    padding: 8px 16px;
+    resize: none;
+    width: 100%;
+    padding: 5px 15px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    white-space: pre-wrap;
+}
+.nts-txt DIV {
+    color: rgba(0, 0, 0, 0.56);
+    font-size: .75rem;
+    margin: 7px 0 0 0;
+    font-size: .92rem;
+    font-weight: 400;
+}
+.map-div {
+    height: 200px;
+    position: relative;
+    margin-bottom:10px;
+}
+.map-div picture {
+    display: block;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    border-radius: 4px;
+    padding-bottom: 56.25%;
+}
+.map-div picture img {
+    display: block;
+    height: 200px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    border-style: none;
+}
+.map-div > div {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    left: 10px;
+    bottom: 10px;
+}
+.map-div> div > div{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    border-radius: 4px;
+    overflow: hidden;
+    background-color: white;
+    margin-bottom: 10px;
+}
+.plus-btn, .minus-btn {
+    background-color: white;
+    padding: 3px 5px;
+    border: none;
+    font-size: 16px;
+}
+.plus-btn {
+    border-bottom: 1px solid rgba(0, 0, 0, .32);
+}
+.map-div > button {
+    position: absolute;
+}
+.lct-btn {
+    background-color: white;
+    border: 0;
+    width: 100%;
+    border-radius: 4px;
+    padding: 7px 1px 5px 1px;
+}
+.lct-btn img {
+    width: 50%;
+}
+.bld-logo {
+    box-sizing: border-box;
+    width: 58px;
+    height: 30px;
+    background-color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 5px;
+    display: fixed;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+.str-div {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px;
+    border: 1px solid rgba(0, 0, 0, .32);
+    border-radius: 4px;
+    position: relative;
+    margin-bottom:10px;
+}
+.str-div::after {
+    position: absolute;
+    content: '>';
+    transform: scaleX(.5);
+    left: 13px;
+    top: 35px;
+}
+.str-div-img {
+    width: 13%;
+    height: fit-content;
+    display: inline-block;
+    margin-left: 15px;
+    padding: 0;
+}
+.str-div-img img{
+    width: 100%;
+    border-radius: 4px;
+}
+.str-div-txt {
+    vertical-align: top;
+    display: inline-block;
+    line-height: 1.7;
+}
+.str-div-txt h2 {
+    color: rgba(0, 0, 0, .86);
+    font-size: 1.2rem;
+}
+.str-div-txt span {
+    color: rgba(0, 0, 0, .56);
+}
+.ts-bs-pmo > div {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    border-bottom: 1px solid rgba(0, 0, 0, .32);
+    line-height: 2;
+    color: rgba(0, 0, 0, 1);
+    padding: 9px 0;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.ts-bs-pmo .nahve-kharid {
+    border-bottom: none;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.ts-bs-pmo div > img {
+    width: 20px;
+    margin-left: 15px;
+}
+.ts-bs-pmo .address {
+    border-bottom: none;
+}

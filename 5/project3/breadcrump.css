@@ -1,0 +1,45 @@
+.brdcrmp-cntr {
+    padding: 32px 0;
+    list-style: none;
+    list-style-type: decimal;
+    font-size: .94rem;
+    line-height: 2;
+}
+.brdcrmp-cntr li {
+    display: inline-block;
+    margin-right: 5px;
+    transition: color 0.5s ease;
+}
+.brdcrmp-li:hover .brdcrmp {
+    color: black;
+}
+.brdcrmp-li a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, .56);
+    transform: transform 0.5s ease;
+}
+.lft-arw::after {
+    content: '>';
+    transform: scaleX(0.6) rotate(0deg);
+    transition: transform 0.5s ease;
+    display: inline-block;
+    font-size: 0.8rem;
+    transform-origin: center center;
+    box-sizing: inherit;
+}
+.brdcrmp:last-child > i:after {
+    content: '';
+}
+.brdcrmp:last-child {
+    color: rgba(0, 0, 0, 0.32);
+    
+    cursor: text;
+}
+.brdcrmp:last-child:hover {
+    color: rgba(0, 0, 0, 0.32);
+}
+.brdcrmp-li:hover .lft-arw::after {
+    transform:scaleX(0.6) rotate(180deg);
+    position: relative;
+    top: -1px;
+}
