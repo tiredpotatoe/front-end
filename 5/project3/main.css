@@ -166,7 +166,8 @@
 }
 .nts-txt textarea{
     background: none;
-    border: 1px solid rgb(118, 118, 118);
+    border: 1px solid rgba(0, 0, 0, .32);
+    outline: none;
     color: rgba(0, 0, 0, .87);
     display: block;
     font-size: 1.23rem;
