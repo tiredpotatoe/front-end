@@ -1,0 +1,293 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: var(--main-black);
+    direction: rtl;
+    padding: 2rem 13%;
+}
+.main {
+    background-color: #fff;
+}
+
+/******sec 1 ******/
+.sec-one {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 1.4rem;
+    border-bottom: 1px solid var(--secondary-gray);
+}
+.sec-one h1 {
+    font-size: 1.1rem;
+    word-spacing: -4px;
+    font-weight: 500;
+}
+.sec-one div:last-child {
+    display: flex;
+    align-items: center;
+    gap: 1.1rem;
+}
+.sec-one div:last-child button {
+    border: none;
+    height: 1rem;
+    vertical-align: middle;
+}
+.sec-one div:last-child img {
+    width: 1rem;
+    height: 1rem;
+}
+
+/********sec 2 ******/
+.sec-two {
+    padding: .6rem 1.4rem .6rem 1.4rem;
+}
+.sec-two > div{
+    display: flex;
+    padding:0 0 .6rem 0;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    border-bottom: 1px solid var(--secondary-gray);
+    gap: 1.3rem;
+}
+.sec-two > div >div {
+    width: 25%;
+    font-size: 13px;
+    color: var(--main-black);
+    font-weight: 600;
+    line-height: 2.2;
+}
+.sec-two > div > div > div:last-child {
+    position: relative;
+}
+.sec-two .select-gray {
+    width: 100%;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    padding: .35rem .6rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background: none;
+    outline: none;
+    font-family: inherit;
+    font-size: 14px;
+    color: var(--dark-gray);
+    font-weight: 500;
+}
+.sec-two .select-div::before {
+content: '';
+  position: absolute;
+  left: .8rem;
+  top: 55%;
+  transform: translateY(-50%);
+  width: .8rem;
+  height: .8rem;
+  background-image: url('../pictures/down-arrow.png'); 
+  background-repeat: no-repeat;
+  background-size: contain;
+  pointer-events: none; 
+}
+.date-label {
+    width: 25%;
+    font-size: 13px;
+    color: var(--main-black);
+    font-weight: 600;
+    line-height: 2.2;
+}
+.date-range {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: .35rem .4rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background: none;
+    outline: none;
+    font-size: 14px;
+    color: var(--dark-gray);
+    font-weight: 500;
+    background-color: var(--secondary-blue);
+}
+.date-input {
+    border: none;
+    background: transparent;
+    font-family: inherit;
+    width: 40%;
+    text-align: center;
+    outline: none;
+    color: #444;
+}
+.to-label {
+    font-size: 14px;
+    color: #666;
+    line-height: 1;
+}
+.personal-input-div > div:last-child{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: .2rem;
+}
+.personal-input-div > div:last-child input {
+    width: 82%;
+    padding: .35rem .8rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background: none;
+    outline: none;
+}
+.personal-input-div > div:last-child div {
+    width: 18%;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background-image: url('../pictures/magnifying-glass.png');
+    background-repeat: no-repeat;
+    background-size: 40%;
+    background-position: center;
+}
+.sec-two > div > div:last-child {
+    width: 15%;
+}
+.main-search-btn {
+    align-self: last baseline;
+}
+.sec-two > div > div:last-child button {
+    width: 100%;
+    background-color: var(--main-blue);
+    border: none;
+    border-radius: 6px;
+    padding: .4rem 0;
+    color: white;
+    font-size: 15px;
+}
+
+/******sec 3 head******/
+.sec-three {
+    width: calc(100% - 1.4rem);
+    margin-right: auto;
+    word-spacing: -3px;
+    color: var(--secondary-black);
+}
+.sec-three table {
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+.sec-three table th {
+    border-left: 1px solid var(--secondary-black);
+    font-size: 12px;
+    padding: .3rem;
+    background-color: var(--main-gray);
+}
+.sec-three table th > div:first-child {
+    border-bottom:  1px solid var(--secondary-black);
+}
+.sec-three table th > div:last-child {
+    display: flex;
+    justify-content: space-evenly;
+}
+.sec-three table th > div:last-child > div {
+    text-align: center;
+    width: 50%;
+}
+.sec-three table th > div:last-child > div:first-child {
+    border-left: 1px solid var(--secondary-black);
+}
+.two-width {
+    width: 60px;
+}
+.one-width {
+    width: 60px;
+}
+.half-width {
+    width: 15px;
+}
+.sec-three table .padding0 {
+    padding: 0;
+}
+.sec-three table .padding0 > div:first-child {
+    padding: .3rem;
+}
+.sec-three table .padding0 > div:last-child > div{
+    padding: .3rem;
+}
+
+/******sec 4******/
+.sec-four {
+    width: 100%;
+    background-color: var(--secondary-blue);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.4rem 1.4rem 1.4rem 1.4rem;
+    word-spacing: -3px;
+    color: var(--secondary-black);
+    border-bottom-left-radius: .6rem;
+    border-bottom-right-radius: .6rem;
+}
+.sec-four > div:first-child {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    gap: 0.4rem 2.7rem;
+    flex-wrap: wrap;
+    font-size: 13px;
+}
+.sec-four > div:first-child > div {
+    display: flex;
+    width: fit-content;
+}
+.gray {
+    color: var(--dark-gray);
+}
+.sec-four > div:last-child {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.2rem;
+    font-size: 11px;
+}
+.sec-four > div:last-child > div:first-child {
+    display: flex;
+    gap: .2rem;
+    font-size: 11px;
+}
+.sec-four > div:last-child > div:first-child button {
+    background-color: #fff;
+    border: none;
+    height: 1.15rem;
+    width: 1.4rem;
+    font-size: 11px;
+    border-radius: 6px;
+    border: 1px solid var(--secondary-gray);
+    color: var(--dark-gray);
+}
+
+
+/******root******/
+:root {
+    --main-black: #171c26;
+    --secondary-black: #130f26;
+    --main-gray: #e9edf5;
+    --secondary-gray: #caccce;
+    --third-gray: #f7f9fc;
+    --dark-gray: #858491;
+    --main-blue: #3241ff;
+    --secondary-blue: #f5f8fd;
+    /**pastel**/
+    --red-pastel-dark: #d81d1e;
+    --red-pastel-light: #ffedef;
+    --green-pastel-dark: #14804a;
+    --green-pastel-light: #e1fcef;
+    --yellow-pastel-dark: #af650e;
+    --yellow-pastel-light: #fcf2e6;
+    --blue-pastel-dark: #6764dd;
+    --blue-pastel-light: #ededfc;
+}

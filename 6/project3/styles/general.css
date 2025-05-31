@@ -1,0 +1,26 @@
+@font-face {
+    font-family: "Nazanin";
+    src: url(../fonts/Far_Nazanin.ttf);
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Nazanin";
+    direction: rtl;
+    background-color: var(--main-gray);
+}
+html {
+    width: 100%;
+    height: 100%;
+}
+:root {
+    gap: 1.6em;
+    gap: 1.6em;
+    --main-gray : #f8f8f8;
+    --dark-gray: #bebebe;
+    --secondary-gray: #e1e1e1;
+    --main-orange: #febd69;
+}

@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>train 2t</title>
+    <link rel="stylesheet" href="styles/main.css" />
+    <link rel="stylesheet" href="styles/table.css">
+  </head>
+  <body>
+    <div class="main">
+      <div class="sec-one">
+        <div><h1>گزارش ویژه تردد</h1></div>
+        <div>
+          <div>
+            <button><img src="pictures/setting.png" alt="" /></button>
+          </div>
+          <div>
+            <button><img src="pictures/download.png" alt="" /></button>
+          </div>
+          <div>
+            <button><img src="pictures/upload.png" alt="" /></button>
+          </div>
+          <div>
+            <button><img src="pictures/x.png" alt="" /></button>
+          </div>
+        </div>
+      </div>
+
+      <div class="sec-two">
+        <div>
+          <div>
+            <div>سال</div>
+            <div class="select-div">
+              <select
+                name=""
+                id=""
+                class="select-gray"
+                aria-placeholder="انتخاب کنید"
+              >
+                <option value="" disabled selected>انتخاب کنید</option>
+                <option value="1">Option 1</option>
+                <option value="2">Option 2</option>
+              </select>
+            </div>
+          </div>
+          <div>
+            <div>ماه</div>
+            <div class="select-div">
+              <select
+                name=""
+                id=""
+                class="select-gray"
+                aria-placeholder="انتخاب کنید"
+              >
+                <option value="" disabled selected>انتخاب کنید</option>
+                <option value="1">Option 1</option>
+                <option value="2">Option 2</option>
+              </select>
+            </div>
+          </div>
+          <div>
+            <label class="date-label">از تاریخ تا تاریخ</label>
+            <div class="date-range" style="position: relative">
+              <div
+                class="check-box"
+                style="
+                  display: flex;
+                  margin-left: 0.4rem;
+                  width: 0.8rem;
+                  height: 0.9rem;
+                  border: 1px solid #caccce;
+                  border-radius: 3px;
+                  position: relative;
+                "
+              >
+              <input type="checkbox" style="position: absolute;appearance: none;">
+            </div>
+              <hr
+                style="
+                  position: absolute;
+                  width: 2px;
+                  background-color: #caccce;
+                  height: 100%;
+                  right: 1.4rem;
+                  border: none;
+                "
+              />
+              <input type="text" placeholder="۱۴۰۱/۰۲/۲۰" class="date-input" />
+              <span class="to-label">تا</span>
+              <input type="text" placeholder="۱۴۰۱/۰۲/۲۰" class="date-input" />
+            </div>
+          </div>
+          <div class="personal-input-div">
+            <div>پرسنل</div>
+            <div>
+              <input type="text" />
+              <div><p style="visibility: hidden; line-height: 2">.</p></div>
+            </div>
+          </div>
+          <div class="main-search-btn">
+            <div>
+              <button>جستجو</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="sec-three">
+        <table>
+          <colgroup>
+            <col style="width: 4%" />
+            <!-- # -->
+            <col style="width: 6%" />
+            <!-- روز -->
+            <col style="width: 8%" />
+            <!-- تاریخ -->
+            <col style="width: 10%" />
+            <!-- وضعیت -->
+            <col style="width: 12%" />
+            <!-- تردد 1 -->
+            <col style="width: 12%" />
+            <!-- تردد 2 -->
+            <col style="width: 12%" />
+            <!-- تردد 3 -->
+            <col style="width: 6%" />
+            <!-- کارکرد موظفی -->
+            <col style="width: 6%" />
+            <!-- حضور -->
+            <col style="width: 6%" />
+            <!-- کارکرد -->
+            <col style="width: 6%" />
+            <!-- تاخیر -->
+            <col style="width: 6%" />
+            <!-- نعجیل -->
+            <col style="width: 6%" />
+            <!-- کسرکار -->
+            <col style="width: 6%" />
+            <!-- کسرکار بین وقت -->
+            <col style="width: 6%" />
+            <!-- اضافه کار اول وقت -->
+            <col style="width: 6%" />
+            <!-- اضافه کار -->
+            <col style="width: 6%" />
+            <!-- اضافه کار غیر مجاز -->
+            <col style="width: 6%" />
+            <!-- اضافه کار ثابت -->
+          </colgroup>
+
+          <thead>
+            <tr>
+              <th
+                style="
+                  border-top-right-radius: 0.6rem;
+                  border-bottom-right-radius: 0.6rem;
+                "
+              >
+                #
+              </th>
+              <th>روز</th>
+              <th>تاریخ</th>
+              <th>وضعیت</th>
+
+              <th class="padding0">
+                <div>تردد 1</div>
+                <div>
+                  <div>ورود</div>
+                  <div>خروج</div>
+                </div>
+              </th>
+              <th class="padding0">
+                <div>تردد 2</div>
+                <div>
+                  <div>ورود</div>
+                  <div>خروج</div>
+                </div>
+              </th>
+              <th class="padding0">
+                <div>تردد 3</div>
+                <div>
+                  <div>ورود</div>
+                  <div>خروج</div>
+                </div>
+              </th>
+
+              <th>کارکرد موظفی</th>
+              <th>حضور</th>
+              <th>کارکرد</th>
+              <th>تاخیر</th>
+              <th>نعجیل</th>
+              <th>کسرکار</th>
+              <th>کسرکار بین وقت</th>
+              <th>اضافه کار اول وقت</th>
+              <th>اضافه کار</th>
+              <th>اضافه کار غیر مجاز</th>
+              <th>اضافه کار ثابت</th>
+            </tr>
+          </thead>
+
+          <tbody id="tBody">
+          </tbody>
+        </table>
+        
+        
+      </div>
+
+      <div class="sec-four">
+        <div>
+          <div>
+            <div>شبفت کاری:</div>
+            <div class="gray">Lorem ipsum dolor sit amet ullam.</div>
+          </div>
+          <div>
+            <div>گروه کاری:</div>
+            <div class="gray">Lorem ipsum dolor sit amet ullam.</div>
+          </div>
+          <div>تعداد حضور:</div>
+          <div>تعدادکارکرد:</div>
+          <div>تعداد غیبت:</div>
+          <div>تعداد مرخصی روزانه:</div>
+        </div>
+
+        <div>
+          <div>
+            <button><</button>
+            <span style="line-height: 1.15rem">1/10</span>
+            <button>></button>
+          </div>
+          <div class="gray">1-30 از 97</div>
+        </div>
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>

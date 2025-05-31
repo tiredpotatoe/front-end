@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>train 3</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        @font-face {
+            font-family: 'iranSans';
+            src: url(Iranian\ Sans.ttf);
+        }
+        body {
+            font-family: 'iranSans';
+            direction: rtl;
+        }
+        html {
+            height: 100%;
+        }
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        :root {
+            --main-blue: #0197A6;
+            --secondary-blue: lightblue;
+            --main-gray: #A1A09C;
+            --secondary-gray:#E1E1E1;
+        }
+        textarea:focus, input:focus {
+            outline-color: var(--main-blue);
+        }
+        textarea, input {
+            box-shadow: 0 0 1px var(--main-gray);
+        }
+        .reply-div {
+            display: flex;
+        }
+    </style>
+</head>
+<body style="background-color: rgb(5, 3, 22);">
+    <div class="main-page-div">
+        <div><h3>دیدگاه ها</h3></div>
+        <div>
+            <div class="notice-blue">
+                <div ><p>لطفا قبل از ارسال دیدگاه خود حتما "<span> قوانین و مقررات </span>" را مطالعه فرمایید.</p></div>
+            </div>
+            <div class="user-comment-write-div">
+                <input type="text" id="userName" placeholder="اسم خود را وارد کنید" style="">
+                <textarea 
+                    name="" 
+                    id="userComment" 
+                    placeholder="دیدگاه خود را بنویسید"></textarea>
+
+                <button id="sendBtn">ارسال</button>
+            </div>
+        </div>
+        <div id="commentsDiv">
+            
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>

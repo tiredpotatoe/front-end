@@ -1,0 +1,311 @@
+/*general*/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  height: 100%;
+  direction: rtl;
+}
+body {
+  background-color: var(--main-blue);
+  padding-bottom: 2em;
+}
+.main-page-container {
+  width: 100%;
+}
+/*header*/
+header {
+  width: 60%;
+  justify-self: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0 .9em 0;
+}
+header > div {
+  display: flex;
+  color: var(--main-gray);
+  font-weight: 500;
+  align-items: center;
+}
+.logo-div {
+  margin-left: 2.6em;
+  width: 9em;
+  height: 3em;
+}
+.logo-div img{
+  width: 100%;
+  height: 100%;
+}
+.navs {
+  display: flex;
+  justify-content: space-between;
+  gap: 1.6em;
+  font-size: 17px;
+}
+.navs > div:hover {
+  color: white;
+  cursor: pointer;
+}
+.username {
+  line-height: 2.2em;
+  margin-left: 2.4em;
+  box-sizing: content-box;
+  display: flex;
+  font-size: 16px;
+  width: 9em;
+  height: 2.2em;
+  padding: 0em .4em;
+  justify-content: flex-end;
+  border: 2px solid var(--secondary-blue);
+  position: relative;
+  border-radius: 3px;
+  padding-left: 1em;
+  align-content: center;
+  color: white;
+}
+.username div {
+  line-height: 2.2em;
+}
+.username > div > div > div:first-child {
+  position: absolute;
+  margin-left:  .2em;
+  right: .2em;
+  height: 1.6em;
+}
+.username > div > div > div:first-child img {
+  width: 100%;
+  height: 100%;
+  margin-top: .3em;
+  vertical-align: top;
+}
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 4em;
+    height: 2.2em;
+  }
+  
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    inset: 0;
+    border: 1px solid var(--secondary-blue);
+    background-color: var(--secondary-blue);
+    border-radius: 50px;
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 2em;
+    width: 2em;
+    left: 0.05em;
+    bottom: 0.05em;
+    background-color: var(--main-blue);
+    border-radius: inherit;
+    background-image: url(pictures/moon.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    transition: all 0.4s cubic-bezier(0.23, 1, 0.320, 1);
+  }
+  
+  .switch input:checked + .slider {
+    box-shadow: 0 0 10px var(--light-blue);
+    border: 1px solid var(--light-blue);
+  }
+  
+  .switch input:checked + .slider:before {
+    transform: translateX(1.8em);
+  }
+  /*MAIN*/
+  main {
+    width: 60%;
+    margin: auto;
+  }
+  main > div:first-child {
+    display: flex;
+    justify-self: center;
+    font-size: 24px;
+    color: white;
+    margin-top: 2.5em;
+    margin-bottom: 1.5em;
+  }
+  .actual-main {
+    width: 100%;
+  }
+  .actual-main > div:first-child {
+    position: relative;
+    width: 100%;
+    margin-bottom: 1.1em;
+  }
+  .actual-main > div:first-child > div{
+    position: relative;
+    display: flex;
+    justify-self: center;
+    font-size: 16px;
+    color: rgb(166, 165, 165);
+    padding: .4em 1em .6em 1em;
+    border-radius:  5px;
+    gap: .2em;
+    z-index: 1;
+    background-color: var(--secondary-blue);
+  }
+  .actual-main > div:first-child hr {
+    width: 100%;
+    height: 2px;
+    display: flex;
+    position: absolute;
+    top: 50%;
+    z-index: 0;
+    background-color: var(--secondary-blue);
+    border: none;
+  }
+
+  /*cards*/
+  .cards-container {
+    font-size: 15px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+  }
+  .card {
+    max-width: calc(50% - .5em);
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: var(--third-blue);
+    flex-grow: 1;
+  }
+  .card-img-div img {
+    height: 100%;
+    width: 100%;
+  }
+  .card-desc {
+    padding: 1em 1.1em;
+  }
+  .card-desc > div {
+    margin-bottom: 2em;
+  }
+  .card-desc > div:last-child {
+    margin-bottom: 0;
+  }
+  .flex  div, .flex {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .card-title {
+    font-size: 11px;
+    color: white;
+  }
+  .card-author {
+    color: var(--main-gray);
+    font-size: 17px;
+  }
+  .rating{
+    display: flex;
+    color: #F6972E;
+  }
+  .more-info-btn {
+    background-color: var(--light-blue);
+    color: var(--main-blue);
+    font-size: 18px;
+    padding: .7em 4em;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+  }
+  .expenses::before {
+    content: '';
+    width: 2em;
+    height: 2em;
+    display: flex;
+    background-image: url(pictures/credit-card-icon.png);
+    background-repeat: no-repeat;
+    background-size: 1.1em;
+    margin-left: .3em;
+  }
+
+  /*footer*/
+  footer {
+    margin-top: 2.5em;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+  }
+  .chat-btn-div {
+    position: fixed;
+    left: 1.5em;
+    bottom: 1em;
+  }
+  .chat-btn-div button{
+    border: none;
+    border-radius: 200px;
+    width: 100%;
+    background: none;
+    cursor: pointer;
+  }
+  .page-btns {
+    display: flex;  
+  }
+  .page-btns button {
+    width: 2.8em;
+    height: 2.8em;
+    color: white;
+    background: none;
+    border: 2px solid transparent;
+    position: relative;
+  }
+  .page-btns > div:last-child  button::after{
+    content: '';
+    width: 2.8em;
+    height: 2.8em;
+    display: flex;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: -2em;
+    cursor: pointer;
+    top: .6em;
+    background-image: url(pictures/left-arrow.png);
+  }
+  .page-btns button:hover {
+    border: 2px solid var(--secondary-blue);
+    background-color: var(--third-blue);
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+
+  /*random classes*/
+  .left-2em {
+    margin-left: .2em;
+  }
+  .gap3 {
+    gap: .4em;
+  }
+  .white {
+    color: white;
+  }
+  .gray {
+    color: white;
+    font-size: 16px;
+  }
+
+  /*root*/
+  :root {
+    --main-blue : #15202b;
+    --secondary-blue : #2a3845;
+    --third-blue : #192734;
+    --light-blue :#49D3FC;
+    --main-gray: #74787b;
+  }
